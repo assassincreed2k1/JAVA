@@ -2,6 +2,7 @@
 package video_5;
 
 public class Main {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         byte a = 1;
         short b = 2;

@@ -2,6 +2,7 @@ package video_9_10;
 import java.util.Scanner;
 
 public class Main {
+    @SuppressWarnings({ "unused", "resource" })
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a number: ");

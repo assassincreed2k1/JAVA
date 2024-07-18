@@ -13,5 +13,9 @@ public class Main {
         sb.delete(4, 11);
         System.out.println("***Third String: \n" + sb);
         System.out.println("***String Length: " + s.length());
+        StringBuilder sb_2 = new StringBuilder("aihgN");
+        System.out.println("Before reverse: "+sb_2);
+        sb_2.reverse();
+        System.out.println("After reverse: "+sb_2);
     }
 }
